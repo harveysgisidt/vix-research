@@ -1,8 +1,6 @@
 # VIX Calculator (CBOE White Paper Based)
 
 A Python-based implementation of the official **CBOE VIX Index** calculation method, using historical SPX options data.
-The goal is to replicate the VIX index using real SXO option quotes, as a way to understand the mechanics of implied volatility estimation, and to enable further research on volatility modeling.
-
 
 **Cautions**
 The csv Data sampled doesn't have sufficient data to fullfill the condition that the expiration day has to be between 23 to 37 days. That is, only the nearest two expiration dates are extracted. Try to adjust a little bit while using it, Thanks! 
@@ -43,7 +41,7 @@ df = pd.read_csv("yourdata.csv")
 vix_calc = VIXCalculator(df)
 
 vix = vix_calc.calculate_vix("{objectdate}")
-
+```
 ---
 
 ## Sample output
@@ -57,10 +55,9 @@ VIX =
 ---
 
 ## Notes
-
-- Data used in this project was provided by the course instructor and contains historical SXO (TXO) option quotes from 2006–2010.
 - This calculator assumes the dataset includes: strike price (K), option type (PC), bid/ask quotes, risk-free rate (rf), and time-to-expiry (T).
 - Mid-price is calculated as (bid + ask) / 2.
+- Time to expiry T is in days, converted to years.
 
 ---
 
