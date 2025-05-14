@@ -68,7 +68,10 @@ VIX =
 ## Author
 
 Harvey Hsu  
+
 Department of Economics, National Taipei University
+
 Email: fujimahiroto@gmail.com
+
 GitHub: [@harveysgisidt](https://github.com/harveysgisidt)
 
