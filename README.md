@@ -9,15 +9,6 @@ The csv Data sampled doesn't have sufficient data to fullfill the condition that
 
 ---
 
-## Features
-# VIX Index Calculator (Based on CBOE White Paper)
-
-This repository contains a Python implementation of the official CBOE VIX Index methodology, applied to historical option data.
-
-The goal is to replicate the VIX index using real SXO option quotes, as a way to understand the mechanics of implied volatility estimation, and to enable further research on volatility modeling.
-
----
-
 ## How it works
 
 - Computes forward index price using call-put parity
