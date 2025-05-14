@@ -47,9 +47,13 @@ vix = vix_calc.calculate_vix("{objectdate}")
 ## Sample output
 
 Date: 
+
 Near-term: 
+
 Next-term: 
+
 F = , adjusted K₀ = 
+
 VIX = 
 
 ---
@@ -65,3 +69,6 @@ VIX =
 
 Harvey Hsu  
 Department of Economics, National Taipei University
+Email: fujimahiroto@gmail.com
+GitHub: [@harveysgisidt](https://github.com/harveysgisidt)
+
