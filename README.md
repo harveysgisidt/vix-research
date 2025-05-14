@@ -20,20 +20,6 @@ The csv Data sampled doesn't have sufficient data to fullfill the condition that
 ## Example usage
 
 ```python
-import pandas as pd
-from VIX_calculator import VIXCalculator
-
-df = pd.read_csv("arranged SXO data (200603-201012).csv")
-vix_calc = VIXCalculator(df)
-
-vix = vix_calc.calculate_vix("2006-03-01")
-print(vix)  # Expected: ~11.31
-
----
-
-## Quick Start
-
-```python
 from VIX_calculator import VIXCalculator
 import pandas as pd
 
